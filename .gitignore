@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Production build outputs
+dist/
+# Note: frontend/dist is included in build, but can also be tracked if deployed as pre-built static files
+
+# User uploaded temp images (keep folder via .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+# Local SQLite databases (created automatically on startup)
+*.db
+db/*.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Vercel deployment cache
+.vercel

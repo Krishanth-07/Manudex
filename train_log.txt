@@ -1,0 +1,58 @@
+train lines 320, test lines 74, alphabet 40
+test chars never seen in training: none
+epoch   1  loss 21.095  test CER 100.0%  (12s)
+epoch  10  loss 3.354  test CER 100.0%  (95s)
+epoch  20  loss 2.701  test CER 96.5%  (186s)
+epoch  30  loss 1.315  test CER 31.6%  (278s)
+epoch  40  loss 0.849  test CER 21.5%  (369s)
+epoch  50  loss 0.532  test CER 17.4%  (460s)
+epoch  60  loss 0.409  test CER 17.1%  (553s)
+epoch  70  loss 0.329  test CER 15.6%  (648s)
+epoch  80  loss 0.320  test CER 15.9%  (742s)
+
+held-out verses matched correctly: 36/37
+  Kural  51 ->   51  sim 98% vs runner-up 28%  OK
+  Kural  52 ->   52  sim 100% vs runner-up 36%  OK
+  Kural  53 ->   53  sim 97% vs runner-up 27%  OK
+  Kural  54 ->   54  sim 86% vs runner-up 44%  OK
+  Kural  55 ->   55  sim 84% vs runner-up 24%  OK
+  Kural  56 ->   56  sim 85% vs runner-up 30%  OK
+  Kural  57 ->   57  sim 89% vs runner-up 34%  OK
+  Kural  58 ->   58  sim 88% vs runner-up 31%  OK
+  Kural  59 ->   59  sim 87% vs runner-up 32%  OK
+  Kural 111 ->  111  sim 98% vs runner-up 34%  OK
+  Kural 112 ->  112  sim 93% vs runner-up 32%  OK
+  Kural 113 ->  113  sim 90% vs runner-up 31%  OK
+  Kural 114 ->  114  sim 92% vs runner-up 33%  OK
+  Kural 115 ->  115  sim 93% vs runner-up 44%  OK
+  Kural 116 ->  116  sim 78% vs runner-up 33%  OK
+  Kural 117 ->  117  sim 95% vs runner-up 28%  OK
+  Kural 118 ->  118  sim 86% vs runner-up 45%  OK
+  Kural 119 ->  119  sim 88% vs runner-up 42%  OK
+  Kural 120 ->  120  sim 81% vs runner-up 30%  OK
+  Kural 172 ->  935  sim 32% vs runner-up 29%  WRONG
+  Kural 173 ->  173  sim 82% vs runner-up 48%  OK
+  Kural 174 ->  174  sim 95% vs runner-up 31%  OK
+  Kural 175 ->  175  sim 85% vs runner-up 32%  OK
+  Kural 176 ->  176  sim 88% vs runner-up 33%  OK
+  Kural 177 ->  177  sim 92% vs runner-up 30%  OK
+  Kural 178 ->  178  sim 88% vs runner-up 37%  OK
+  Kural 179 ->  179  sim 89% vs runner-up 50%  OK
+  Kural 180 ->  180  sim 59% vs runner-up 30%  OK
+  Kural 221 ->  221  sim 67% vs runner-up 32%  OK
+  Kural 222 ->  222  sim 80% vs runner-up 35%  OK
+  Kural 223 ->  223  sim 74% vs runner-up 30%  OK
+  Kural 224 ->  224  sim 89% vs runner-up 32%  OK
+  Kural 225 ->  225  sim 81% vs runner-up 51%  OK
+  Kural 226 ->  226  sim 81% vs runner-up 35%  OK
+  Kural 227 ->  227  sim 78% vs runner-up 40%  OK
+  Kural 228 ->  228  sim 89% vs runner-up 30%  OK
+  Kural 229 ->  229  sim 80% vs runner-up 33%  OK
+
+examples (reference | prediction):
+   மனைகதககமாணபுடையளஆகிததறகொணடான | மனைதககமாணபுடையளஆகிததறகொணடான
+   வளததககாளவாழககைததுணை | வளததககாளவாழககைததுணை
+   மனைமாடசிஇலலாளகணஇலலாயினவாழககை | மனைமாடசிஇலலாளகணஇலலாயினவாழககை
+   எனைமாடசிததாயினுமஇல | எனைமாடசிததாயினுமஇல
+   இலலதெனஇலலவளமாணபானாலஉளளதென | இலலதெனஇலலவளமாணபானாலஉளளதென
+   இலலவளமாணாககடை | இலலவளமாணககடை

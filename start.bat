@@ -1,0 +1,3 @@
+@echo off
+echo Starting Manudex Production Server...
+uvicorn main:app --host 0.0.0.0 --port 8000

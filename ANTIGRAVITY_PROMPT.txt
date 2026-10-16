@@ -1,0 +1,5 @@
+Read HANDOFF.md in this project first. Then build the Manudex web app described there.
+Do not modify recognize.py, matcher.py or the model file; import recognize_page from recognize.py.
+Use the screenshots in /designs as the visual reference (I will add them). 
+Start with the backend (FastAPI + SQLite) and test it with sample_pages/page_06.png, then build the four screens.
+After each stage, run it and show me it working before moving on.
